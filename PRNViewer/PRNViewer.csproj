@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Steema.TeeChart.NET" Version="4.2020.4.6" />
+    <PackageReference Include="Steema.TeeChart.NET.Standard" Version="4.2020.4.6" />
+  </ItemGroup>
+
+</Project>
